@@ -62,6 +62,7 @@ semantic_models:
       - name: ordered_at
         expr: ordered_at
         type: time
+        is_partition: true
         type_params:
           time_granularity: day
       - name: order_total_dim

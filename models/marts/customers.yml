@@ -43,6 +43,7 @@ semantic_models:
         type: categorical
       - name: first_ordered_at
         type: time
+        is_partition: true
         type_params:
           time_granularity: day
       - name: last_ordered_at

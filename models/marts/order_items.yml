@@ -19,6 +19,7 @@ semantic_models:
       - name: ordered_at
         expr: cast(ordered_at as DATETIME)
         type: time
+        is_partition: true
         type_params:
           time_granularity: day
       - name: is_food_item
